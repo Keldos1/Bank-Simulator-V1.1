@@ -97,12 +97,12 @@ The project uses Spring Security for authentication and access control.
 Account ownership checks are implemented for withdrawals, transfers, and transaction history. Authorization checks for all operations are still being reviewed.
 
 ## Future Improvements
-
-- Complete the authorization security review
-- Expand automated test coverage
-- Improve API documentation
-- Add database migrations with Flyway or Liquibase
-- Implement CI/CD with GitHub Actions
+- **Multi-currency Accounts** — support KZT, USD, and EUR accounts.
+- **Currency Exchange** — implement transfers with automatic currency conversion.
+- **Advanced Transaction History** — add filtering by date, transaction type, and amount.
+- **Account Statements** — generate downloadable PDF statements.
+- **Notifications** — notify users about successful transactions and account activity.
+- **Database Migrations** — add database version control using Flyway or Liquibase.
 
 ## Author
 
