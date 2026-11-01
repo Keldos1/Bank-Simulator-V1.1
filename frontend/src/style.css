@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+:root{font-family:Inter,system-ui,Arial,sans-serif;color:#e9effb;background:#0b1220;font-synthesis:none}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.45}h1,h2,p{margin-top:0}h1{font-size:29px;letter-spacing:-1px}h2{font-size:19px;letter-spacing:-.4px}small{font-size:12px}.muted{color:#8f9db4}.tiny{font-size:12px}.eyebrow{font-size:11px;font-weight:700;letter-spacing:2px;color:#7098dc}.shell{display:flex;min-height:100vh}.sidebar{width:255px;flex-shrink:0;background:#101a2b;border-right:1px solid #24324a;display:flex;flex-direction:column;padding:30px 17px}.brand{display:flex;align-items:center;gap:11px;padding:0 8px}.brand-icon,.form-icon{background:#2864e9;color:white;border-radius:12px;width:45px;height:45px;display:grid;place-items:center}.brand strong{display:block;font-size:16px;letter-spacing:-.5px}.brand small{display:block;margin-top:4px;letter-spacing:2px;font-size:9px;color:#8294b0}.side-label{font-size:10px;letter-spacing:2px;color:#667995;margin:48px 13px 14px}.nav{border:0;background:transparent;color:#9babbe;display:flex;align-items:center;gap:13px;width:100%;padding:13px 15px;text-align:left;border-radius:10px;font-size:13px;font-weight:600;margin:2px 0}.nav.active,.nav:hover{background:#1e3763;color:#e7f1ff}.side-bottom{margin-top:auto}.side-user{display:flex;align-items:center;gap:11px;padding:14px 10px;border-top:1px solid #26344b;margin-bottom:12px}.side-user strong,.side-user small{display:block}.side-user strong{font-size:12px}.side-user small{color:#8494ac;margin-top:5px}.main{width:100%;max-width:1350px;margin:0 auto;padding:34px 42px 65px;min-width:0}.topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:27px}.topbar h1{margin:9px 0 0}.avatar{background:#244777;color:#bdd4ff;width:43px;height:43px;display:grid;place-items:center;border-radius:50%;font-weight:700}.hero{background:linear-gradient(110deg,#1742a0,#225ed1 70%,#397ce7);border-radius:19px;padding:35px 38px;display:flex;justify-content:space-between;align-items:center;overflow:hidden}.hero-label{font-weight:700}.hero p{margin:25px 0 8px;color:#bcd2ff;font-size:13px}.hero-balance{font-size:36px;letter-spacing:-1px;font-weight:800}.hero small{display:block;margin-top:8px;color:#bfd2fa}.hero-art{color:#ffffff35;transform:rotate(-12deg);margin-right:35px}.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:23px 0}.actions button{background:#162338;border:1px solid #273853;border-radius:14px;padding:18px;color:#f0f5ff;display:flex;align-items:center;gap:14px;font-weight:600;text-align:left}.actions button:hover,.account-card:hover{border-color:#4473c7}.actions span{display:grid;place-items:center;width:45px;height:45px;border-radius:12px;background:#1d3765;color:#7eafff}.panel{background:#141f31;border:1px solid #28374f;border-radius:17px;padding:24px;margin-bottom:22px}.section-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:22px}.section-head h2{margin:0 0 6px}.section-head p{margin:0;font-size:12px}.btn{border:0;border-radius:10px;padding:12px 17px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:13px;font-weight:700}.btn.primary{background:#2d69eb;color:white}.btn.primary:hover{background:#417dfb}.btn.full{width:100%;margin-top:8px;padding:15px}.account-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.account-card{background:#1b2a41;border:1px solid #30415d;border-radius:14px;padding:20px}.account-top,.account-bottom{display:flex;align-items:center;justify-content:space-between}.account-top{margin-bottom:21px;color:#7aaaff}.account-card>.muted{font-size:12px}.account-balance{font-size:24px;font-weight:800;margin:13px 0 22px}.account-bottom{border-top:1px solid #34435a;padding-top:13px;color:#8da2c0;font-size:12px}.account-bottom button,.section-head>button:not(.btn){background:none;color:#9fc0ff;border:0;font-size:12px}.pill{display:inline-block;border-radius:20px;padding:6px 10px;background:#26364f;color:#b3c5df;font-size:10px;font-weight:700;letter-spacing:.4px}.pill.ok{background:#123e36;color:#6de3b4}.pill.warn{background:#493922;color:#f4c174}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:620px;font-size:13px}th{text-align:left;color:#8295af;font-weight:600;font-size:11px;padding:13px 12px;border-bottom:1px solid #34435a}td{padding:17px 12px;border-bottom:1px solid #25354b;color:#d4dfef}td strong,td small{display:block}td small{color:#7389a7;margin-top:6px}.right{text-align:right}.positive{color:#5ee2b1}.empty{text-align:center;color:#8fa0b7;padding:30px}.pagination{display:flex;justify-content:space-between;align-items:center;margin-top:19px;font-size:12px;color:#91a1ba}.pagination>div{display:flex;align-items:center;gap:12px}.pagination button{background:#263a56;border:0;color:#d6e5ff;padding:7px;border-radius:7px;display:grid;place-items:center}.alert{padding:13px 15px;border-radius:10px;margin:0 0 20px;font-size:13px;display:flex;justify-content:space-between}.alert button{border:0;background:transparent;color:inherit;font-size:18px}.alert.error{background:#492733;color:#ffc5d1}.alert.success{background:#173e34;color:#9bf0ca}.auth-page{min-height:100vh;display:grid;grid-template-columns:1fr 1fr}.auth-intro{padding:45px 60px;background:radial-gradient(circle at 25% 70%,#1e478e 0%,#102649 45%,#101a2b 90%);display:flex;flex-direction:column;justify-content:space-between}.auth-slogan{margin:auto 0}.auth-slogan h1{font-size:clamp(34px,4.2vw,65px);line-height:1.17;margin:20px 0 25px}.auth-slogan em{font-style:normal;color:#73a6ff}.auth-slogan p{color:#b3c3dd;line-height:1.8;max-width:400px;font-size:14px}.auth-footer{color:#8195b2;font-size:11px}.auth-form-area{display:grid;place-items:center;padding:35px;background:#0e1625}.auth-form{width:min(100%,390px)}.form-icon{margin-bottom:27px}.auth-form h2{font-size:28px;margin-bottom:8px}.auth-form>.muted{font-size:13px;margin-bottom:30px}.auth-form label,.modal label{display:block;font-size:12px;font-weight:600;margin-bottom:17px;color:#bdcbe0}.auth-form input,.modal input,.modal select,.section-head select{display:block;width:100%;margin-top:8px;padding:13px 14px;background:#18253a;border:1px solid #35455e;border-radius:9px;color:white;outline:0}.auth-form input:focus,.modal input:focus,.modal select:focus{border-color:#4984fa}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.switch{text-align:center;color:#8fa0ba;font-size:12px;margin-top:23px}.switch button{border:0;background:none;color:#7ca9ff;font-weight:700}.overlay{position:fixed;inset:0;background:#030913cc;display:grid;place-items:center;padding:18px;z-index:5}.modal{width:min(100%,440px);background:#18263a;border:1px solid #3b4b63;padding:26px;border-radius:18px;box-shadow:0 20px 80px #0008}.close{border:0;background:none;color:#a6b9d3;font-size:27px}.table-actions{display:flex;gap:8px;flex-wrap:wrap}.table-actions button{border:1px solid #3a5475;border-radius:7px;background:#223651;color:#c7dbf9;padding:7px 9px;font-size:11px}@media(max-width:900px){.sidebar{width:210px}.main{padding:26px 22px}.account-grid{grid-template-columns:1fr}.auth-intro{padding:30px}.auth-slogan h1{font-size:40px}}@media(max-width:650px){.shell{display:block}.sidebar{width:100%;padding:13px 15px;flex-direction:row;align-items:center;flex-wrap:wrap;gap:5px}.sidebar .brand{margin-right:auto}.side-label{display:none}.sidebar .nav{width:auto;padding:10px;font-size:0}.sidebar .nav svg{width:21px}.side-bottom{display:flex;margin:0}.side-user{display:none}.main{padding:24px 15px}.hero{padding:27px}.hero-balance{font-size:27px}.hero-art{display:none}.actions{gap:8px}.actions button{padding:12px 6px;flex-direction:column;gap:8px;font-size:11px}.actions span{width:38px;height:38px}.panel{padding:15px}.section-head{align-items:flex-start}.auth-page{grid-template-columns:1fr}.auth-intro{min-height:180px;padding:22px}.auth-slogan,.auth-footer{display:none}.auth-form-area{padding:40px 22px}}
+
+/* BANK SIMULATOR — DARK GREEN THEME */
+
+:root {
+    color: #e7f5ec;
+    background: #08150f;
+}
+
+body {
+    background: #08150f;
+    color: #e7f5ec;
+}
+
+/* Боковое меню */
+.sidebar {
+    background: #0d2118;
+    border-right-color: #234335;
+}
+
+.nav {
+    color: #a1bead;
+}
+
+.nav.active,
+.nav:hover {
+    background: #1b4932;
+    color: #e9fff1;
+}
+
+/* Логотип */
+.brand-icon,
+.form-icon {
+    background: #168653;
+    color: white;
+}
+
+/* Карточка общего баланса */
+.hero {
+    background: linear-gradient(
+        110deg,
+        #125d39,
+        #14794b 70%,
+        #23965e
+    );
+}
+
+/* Быстрые действия */
+.actions button {
+    background: #10271c;
+    border-color: #2c4c3a;
+    color: #e8f8ee;
+}
+
+.actions span {
+    background: #194b31;
+    color: #75d6a1;
+}
+
+.actions button:hover {
+    border-color: #39b97b;
+}
+
+/* Основные панели */
+.panel {
+    background: #10251b;
+    border-color: #294a37;
+}
+
+/* Банковские счета */
+.account-card {
+    background: #173326;
+    border-color: #31543f;
+}
+
+.account-card:hover {
+    border-color: #39b97b;
+}
+
+/* Кнопки */
+.btn.primary {
+    background: #168b55;
+    color: white;
+}
+
+.btn.primary:hover {
+    background: #1fa369;
+}
+
+/* Таблицы */
+th {
+    color: #93b29f;
+    border-bottom-color: #31533e;
+}
+
+td {
+    color: #d9ede0;
+    border-bottom-color: #244333;
+}
+
+/* Статусы */
+.pill {
+    background: #284637;
+    color: #b9d4c3;
+}
+
+.pill.ok {
+    background: #123e36;
+    color: #6de3b4;
+}
+
+.positive {
+    color: #65d79b;
+}
+
+/* Страница авторизации */
+.auth-intro {
+    background: radial-gradient(
+        circle at 25% 70%,
+        #155b3c 0%,
+        #103722 45%,
+        #0d2118 90%
+    );
+}
+
+.auth-form-area {
+    background: #091a12;
+}
+
+.auth-slogan em {
+    color: #75dba5;
+}
+
+/* Поля ввода */
+.auth-form input,
+.modal input,
+.modal select,
+.section-head select {
+    background: #132e20;
+    border-color: #365b43;
+    color: white;
+}
+
+.auth-form input:focus,
+.modal input:focus,
+.modal select:focus {
+    border-color: #3ab978;
+}
+
+/* Всплывающие окна */
+.overlay {
+    background: #031008dd;
+}
+
+.modal {
+    background: #153023;
+    border-color: #3d604b;
+}
+
+/* Дополнительные элементы */
+.avatar {
+    background: #1d5839;
+    color: #baf2ce;
+}
+
+.pagination button {
+    background: #244d35;
+    color: #e2f7e8;
+}
+
+.table-actions button {
+    background: #1d412d;
+    border-color: #3b6a4d;
+    color: #d1f0da;
+}
